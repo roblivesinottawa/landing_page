@@ -16,7 +16,10 @@
   <body>
     <nav>
       <div class="logo">
-        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+        <img
+          src="https://randomuser.me/api/portraits/women/60.jpg"
+          alt="user"
+        />
       </div>
       <ul>
         <li><a href="#">Home</a></li>
@@ -73,7 +76,7 @@
         voluptatum voluptates excepturi laborum officiis itaque perspiciatis.
       </p>
     </div>
-    <!-- modal -->
+    <!-- Modal -->
     <div class="modal-container" id="modal">
       <div class="modal">
         <button class="close-btn" id="close">
@@ -83,15 +86,25 @@
           <h3>Sign Up</h3>
         </div>
         <div class="modal-content">
-          <p>Register with us</p>
+          <p>Register with us to get offers, support and more</p>
           <form class="modal-form">
             <div>
               <label for="name">Name</label>
-              <input type="text" id="name" placeholder="Enter Name" />
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
             </div>
             <div>
               <label for="email">Email</label>
-              <input type="email" id="email" placeholder="Enter Email" />
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
             </div>
             <div>
               <label for="password">Password</label>
@@ -99,6 +112,7 @@
                 type="password"
                 id="password"
                 placeholder="Enter Password"
+                class="form-input"
               />
             </div>
             <div>
@@ -106,7 +120,8 @@
               <input
                 type="password"
                 id="password2"
-                placeholder="Enter Password Confirmation"
+                placeholder="Confirm Password"
+                class="form-input"
               />
             </div>
             <input type="submit" value="Submit" class="submit-btn" />
@@ -114,6 +129,7 @@
         </div>
       </div>
     </div>
+
     <script src="app.js"></script>
   </body>
 </html>
